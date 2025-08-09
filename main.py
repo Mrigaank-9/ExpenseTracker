@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import pandas as pd
 
-from backend.Expenses.expenses import router as router_expense
+from .Expenses.expenses import router as router_expense
 
 app = FastAPI()
 
